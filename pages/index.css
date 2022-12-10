@@ -1,0 +1,11 @@
+/* NORMALIZE */
+@import url(../vendor/normalize.css);
+
+/* VARIABLES */
+@import url(../var/var.css);
+
+/* FONTS */
+@import url(../vendor/fonts/fonts.css);
+
+/* PAGE */
+@import url(../blocks/page/page.css);
