@@ -1,8 +1,41 @@
 .header {
-  padding-top: 28px;
   margin: 0 auto;
   max-width: 1184px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
+}
+  
+.header__logo {
+  background-image: url(../../../images/header-logo.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 176px;
+  height: 52px;
+  object-fit: cover;
+}
+
+.header__lang-links {
+  display: flex;
+  gap: 18px;
+  align-items: flex-end;
+}
+
+.header__lang-link {
+  color: var(--font-main-color);
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  transition: opacity .3s ease-in-out;
+}
+
+.header__lang-link_active {
+  text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  opacity: .7;
 }

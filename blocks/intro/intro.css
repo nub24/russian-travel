@@ -1,0 +1,42 @@
+.intro {
+  display: grid;
+  grid-template-columns: minmax(auto, 690px) auto;
+  grid-template-rows: repeat(3, fit-content);
+  max-width: 984px;
+  width: 100%;
+  margin: 92px auto 0;
+}
+
+.intro__title {
+  grid-row: 1;
+  margin: 0;
+  color: var(--font-main-color);
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin-bottom: 40px;
+}
+
+.intro__text {
+  grid-row: 2;
+  margin: 0;
+  color: var(--font-main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin-bottom: 33px;
+}
+
+.intro__list {
+  grid-row: 3;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.intro__list-item {
+  color: var(--font-main-color);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
