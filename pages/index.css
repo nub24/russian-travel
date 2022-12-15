@@ -18,3 +18,12 @@
 
 /* INTRO */
 @import url(../blocks/intro/intro.css);
+
+/* PHOTO-GRID */
+@import url(../blocks/photo-grid/photo-grid.css);
+
+/* PLACES */
+@import url(../blocks/places/places.css);
+
+/* COVER */
+@import url(../blocks/cover/cover.css);
