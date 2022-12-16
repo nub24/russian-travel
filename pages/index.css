@@ -27,3 +27,6 @@
 
 /* COVER */
 @import url(../blocks/cover/cover.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
