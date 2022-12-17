@@ -42,3 +42,43 @@
   line-height: 14px;
   letter-spacing: 1.5px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    margin-top: -8px;
+  }
+
+  .lead__image {
+    margin-top: 56px;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    margin: 56px -24px 0;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .lead__image {
+    margin: 40px -24px 0;
+  }
+
+  .lead__title {
+    margin-top: -8px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 16px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    margin: 40px -16px 0;
+  }
+}

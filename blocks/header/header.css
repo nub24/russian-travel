@@ -20,6 +20,7 @@
   display: flex;
   gap: 18px;
   align-items: flex-end;
+  padding-bottom: 5px;
 }
 
 .header__lang-link {
@@ -30,12 +31,34 @@
   line-height: 28px;
   text-decoration: none;
   transition: opacity .3s ease-in-out;
+  position: relative;
 }
 
-.header__lang-link_active {
-  text-decoration: underline;
+.header__lang-link_active.header__lang-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #fff;
 }
 
 .header__lang-link:hover {
   opacity: .7;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .header__lang-links {
+    padding-bottom: 7px;
+  }
 }

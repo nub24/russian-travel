@@ -8,3 +8,15 @@
   font-family: 'Inter', sans-serif;
   box-sizing: border-box;  
 }
+
+@media screen and (max-width: 768px) {
+  .page {
+    padding: 28px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding: 16px 16px 24px;
+  }
+}
