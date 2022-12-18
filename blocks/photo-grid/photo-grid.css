@@ -41,11 +41,12 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 370px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, 288px);
+    grid-template-columns: repeat(auto-fit);
     gap:12px;
-    margin: 64px auto
+    margin: 64px auto;
+    justify-items: center;
   }
 
   .photo-grid__item {

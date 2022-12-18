@@ -77,8 +77,13 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .lead__image {
-    margin: 40px -16px 0;
+@media screen and (max-width: 370px) {
+  .header {
+    padding-left: 16px;
+    padding-right: 16px;
   }
+}
+
+.lead__image {
+  margin: 40px 0 0;
 }

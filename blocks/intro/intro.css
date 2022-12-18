@@ -52,9 +52,10 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 370px) {
   .intro {
-    grid-template-columns: 288px;
+    grid-template-columns: minmax(auto, 288px);
+    justify-content: center;
     margin: 64px auto 0;
   }
 
