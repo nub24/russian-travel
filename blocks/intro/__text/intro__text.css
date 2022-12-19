@@ -1,0 +1,9 @@
+.intro__text {
+  grid-row: 2;
+  margin: 0;
+  color: var(--font-main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin-bottom: 33px;
+}

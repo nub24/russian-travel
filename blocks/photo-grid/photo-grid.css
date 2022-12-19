@@ -11,19 +11,9 @@
   justify-content: center;
 }
 
-.photo-grid__item {
-  width: 284px;
-  object-fit: cover;
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 1024px) {
   .photo-grid {
     gap: 14px;
-  }
-
-  .photo-grid__item {
-    width: 300px;
   }
 }
 
@@ -33,10 +23,6 @@
     margin: 88px 24px;
     gap: 16px;
   }
-
-  .photo-grid__item {
-    width: 352px;
-  }
 }
 
 @media screen and (max-width: 400px) {
@@ -44,9 +30,5 @@
     grid-template-columns: repeat(auto-fit, 288px);
     gap:12px;
     margin: 64px auto
-  }
-
-  .photo-grid__item {
-    width: 288px;
   }
 }

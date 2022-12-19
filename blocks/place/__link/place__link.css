@@ -1,0 +1,23 @@
+.place__link {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: var(--font-main-color);
+  transition: opacity .2s ease-in-out;
+  position: relative;
+}
+
+.place__link::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #fff;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.place__link:hover {
+  opacity: 80%;
+}
