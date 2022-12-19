@@ -1,0 +1,16 @@
+.content {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--page-color);
+  color: var(--font-main-color);
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  padding: 28px 0 24px;
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    padding-top: 16px ;
+  }
+}
