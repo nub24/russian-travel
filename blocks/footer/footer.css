@@ -19,3 +19,9 @@
     gap: 48px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding: 0 16px;
+  }
+}

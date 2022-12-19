@@ -2,7 +2,7 @@
 @import url(../vendor/normalize.css);
 
 /* VARIABLES */
-@import url(../var/var.css);
+@import url(../vendor/variables/var.css);
 
 /* FONTS */
 @import url(../vendor/fonts/fonts.css);
@@ -51,7 +51,6 @@
 
 /* COVER */
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__content/cover__content.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
