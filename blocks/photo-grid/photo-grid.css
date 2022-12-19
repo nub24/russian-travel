@@ -29,6 +29,6 @@
   .photo-grid {
     grid-template-columns: repeat(auto-fit, 288px);
     gap:12px;
-    margin: 64px auto
+    margin: 64px auto;
   }
 }
