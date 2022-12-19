@@ -17,39 +17,3 @@
   width: 284px;
   object-fit: cover;
 }
-
-@media screen and (max-width: 1024px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit, 300px);
-    gap:14px;
-  }
-
-  .photo-grid__item {
-    width: 300px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit, 352px);
-    gap:16px;
-    margin: 88px auto
-  }
-
-  .photo-grid__item {
-    width: 352px;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .photo-grid {
-    grid-template-columns: repeat(auto-fit);
-    gap:12px;
-    margin: 64px auto;
-    justify-items: center;
-  }
-
-  .photo-grid__item {
-    width: 288px;
-  }
-}

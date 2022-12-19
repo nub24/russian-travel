@@ -10,7 +10,8 @@
   position: relative;
   display: flex;
   cursor: pointer;
-  margin-bottom: 92px;
+  margin: 92px auto 0;
+  box-sizing: border-box;
 }
 
 .cover__overlay {
@@ -22,7 +23,8 @@
   opacity: 0.3;
 }
 
-.cover__overlay:hover {
+.cover__overlay:hover,
+.cover__content:hover ~ .cover__overlay {
   opacity: .8;
 }
 
@@ -33,6 +35,7 @@
   flex-direction: column;
   align-self: center;
   gap: 32px;
+  z-index: 99;
 }
 
 .cover__title {

@@ -44,28 +44,3 @@
 .intro__span-regular {
   font-weight: 400;
 }
-
-@media screen and (max-width: 768px) {
-  .intro {
-    grid-template-columns: minmax(auto, 720px);
-    margin: 88px auto 0;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .intro {
-    grid-template-columns: minmax(auto, 288px);
-    justify-content: center;
-    margin: 64px auto 0;
-  }
-
-  .intro__title {
-    font-size: 32px;
-    line-height: 35px;
-    margin-bottom: 40px;
-  }
-
-  .intro__text {
-    margin-bottom: 34px;
-  }
-}
